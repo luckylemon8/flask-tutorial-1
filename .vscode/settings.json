@@ -24,5 +24,7 @@
   "chat.agent.enabled": false,
   "github.copilot.chat.participant.alwaysInclude": [
     "github/copilot-instructions.md"
-  ]
+  ],
+  "liveServer.settings.port": 5501,
+  "livePreview.defaultPreviewPath": "/static/templates/index.html"
 }

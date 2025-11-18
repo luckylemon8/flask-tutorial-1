@@ -1,0 +1,3 @@
+-- database: ./student_marks.db
+
+SELECT * FROM Marks;

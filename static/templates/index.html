@@ -12,20 +12,26 @@
       a book.
     </p>
 
+    {% if logged_in == True %}
     <p>Hello, {{name}}. You visited my page at {{time}}.</p>
-
+    {% else %}
+    <p>Please Login</p>
+    {% endif %}
     <table border="1">
       <thead>
         <th>Firstname</th>
         <th>Lastname</th>
         <th>DOB</th>
       </thead>
+
       <tbody>
+        {% for count in range(5) %}
         <tr>
           <td>Bobby</td>
           <td>Bob</td>
           <td>3/1/2008</td>
         </tr>
+        {% endfor %}
       </tbody>
     </table>
   </body>
